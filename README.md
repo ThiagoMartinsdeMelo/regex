@@ -4,7 +4,10 @@
 ```
 \d{3}\.\d{3}\.\d{3}\-\d{2}
 ```
-##### CPF With . Optional
+<p>CPF With "." and "-" Optional</p>
+```
+\d{3}[.-]?\d{3}[.-]?\d{3}[.-]?\d{2
+```
 
 #### CNPJ
 
